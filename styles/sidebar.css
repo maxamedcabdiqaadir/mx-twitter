@@ -1,0 +1,139 @@
+.sidebar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 500px;
+    
+    left: 0;
+    /* right: 1019px; */
+    background-color: white;
+    border-right: 1px solid rgb(205,205,205);
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    
+}
+.sidebar-container img{
+    height: 20px;
+    /* filter: invert(38%) sepia(3%) saturate(3283%) hue-rotate(164deg) brightness(95%) contrast(85%);
+     */
+}
+.sidebar-container{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.logo{
+    margin-bottom: 10px;
+    width: 20px;
+    padding: 10px;
+}
+.logo:hover{
+    background-color: rgb(205, 205, 205);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.sidebar-home p{
+    font-weight: 500;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.sidebar-home,
+.sidebar-explore,
+.sidebar-notification,
+.sidebar-message,
+.sidebar-list,
+.sidebar-bookmark,
+.sidebar-communities,
+.sidebar-profile,
+.sidebar-more{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    /* border: 1px solid red; */
+}
+.sidebar-explore p,
+.sidebar-notification p,
+.sidebar-message p,
+.sidebar-list p,
+.sidebar-bookmark p,
+.sidebar-communities p,
+.sidebar-profile p,
+.sidebar-more p{
+    margin-left: 10px;
+    font-size: 16px;
+    color: rgb(83, 100, 113);   
+}
+.sidebar-home:hover,
+.sidebar-explore:hover,
+.sidebar-notification:hover,
+.sidebar-message:hover,
+.sidebar-list:hover,
+.sidebar-bookmark:hover,
+.sidebar-communities:hover,
+.sidebar-profile:hover,
+.sidebar-more:hover{
+    background-color: rgb(222, 222, 222);
+    border-radius: 5px;
+}
+.sidebar-btn{
+    padding: 10px 80px;
+    background-color: rgb(52, 144, 249);
+    border: none;
+    font-family: roboto,arial;
+    color: white;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.sidebar-btn:hover{
+    cursor: pointer;
+    background-color: rgb(52, 95, 249);
+}
+.sidebar-myprofile{
+    display: flex;
+    margin-top: 100px;
+    margin-right: 15px;
+    padding: 5px;
+    align-items: center;
+}
+.sidebar-myprofile:hover {
+    background-color: rgb(222, 222, 222);
+    border-radius: 5px;
+    
+}
+.my-channel1{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.names .sidebar-name{
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.names .sidebar-username{
+    font-size: 10px;
+    color: rgb(96,96,96);
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.more{
+    width: 20px;
+    margin-left: 10px;
+}
+.position{
+    position: relative;
+}
+.position p{
+    position: absolute;
+    background-color: rgb(52, 144, 249);
+    padding: 2px 5px;
+    border-radius: 50%;
+    font-family: roboto,arial;
+    color: white;
+    font-size: 10px;
+    top: -5px;
+}

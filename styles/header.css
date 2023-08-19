@@ -1,0 +1,49 @@
+.header{
+    background-color: rgb(241, 241, 241);
+    opacity: 0.9;
+    padding-top: 20px;
+    left: 0;
+    height: 100px;
+    width: 520px;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid rgb(205,205,205);
+}
+.home{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+.total{
+    display: flex;
+}
+.foryou,
+.follow{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 36px;
+    align-items: center;
+}
+.foryou p{
+    border-bottom: 4px solid rgb(26, 126, 234);
+    padding-bottom: 10px;
+}
+.follow p{
+    padding-bottom: 10px;
+}
+.foryou:hover,
+.follow:hover{
+    background-color: rgb(204, 204, 204);
+}
+
+.title{
+    font-weight: 500;
+    font-size: 15px;
+}
+.subtitle{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(96,96,96);
+}

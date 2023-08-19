@@ -1,0 +1,234 @@
+main{
+    padding-top: 120px;
+}
+.profile{
+    width: 500px;
+    border-bottom: 1px solid rgb(205, 205, 205);
+}
+.post{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-block: 10px;
+}
+.post img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+    
+}
+.post input{
+    border: none;
+    font-family: roboto,arial;
+    padding: 10px;
+    flex: 1;
+
+}
+.post input::placeholder{
+    font-size: 16px;
+}
+.media{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+.icons{
+    padding-top: 15px;
+    padding-left: 43px;
+    cursor: pointer;
+}
+.icons img{
+    height: 18px;
+    margin-right: 15px;
+    filter: invert(48%) sepia(28%) saturate(5796%) hue-rotate(202deg) brightness(99%) contrast(94%);
+    
+}
+.btn{
+    margin-right: 10px;
+}
+.btn button{
+    
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-family: roboto,arial;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    opacity: 0.7;
+    font-size: 12px;
+}
+.menu{
+    display: flex;
+    max-width: 500px;
+    padding-top: 15px;
+    padding-left: 10px;
+    border-bottom: 1px solid rgb(205,205,205);
+}
+.left-side{
+    width: 40px;
+    margin-right: 10px;
+}
+.left-side img{
+    width: 40px;
+    border-radius: 30px;
+    
+}
+.right-side{
+    flex: 1;
+}
+.title-1{
+    display: flex;
+    justify-content: space-between;
+}
+.left-side1{
+    display: flex;
+}
+.channel-name{
+    font-size: 15px;
+
+}
+.gmail{
+    color: rgb(96,96,96);
+    font-size: 14px;
+    padding-left: 10px;
+}
+.dot{
+    color:rgb(96,96,96);
+    padding-left: 120px;
+    width: 18px;
+}
+.subtitle-1 p{
+    font-size: 14px;
+    color: rgb(90,90,90);
+    margin-bottom: 5px;
+}
+.span{
+    color: rgb(108, 108, 251);
+}
+.profile-img img{
+    /* width: 300px; */
+    width: 80%;
+    border-radius: 10px;
+}
+.bottom{
+    padding-bottom: 15px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.reply,
+.repost,
+.like,
+.view,
+.share{
+    display: flex;
+    align-items: center;
+    
+
+}
+.reply img,
+.repost img,
+.like img,
+.view img,
+.share img{
+    width: 15px;
+}
+.reply p,
+.repost p,
+.like p,
+.view p{
+    font-size: 12px;
+    color: rgb(96,96,96);
+    margin-left: 5px;
+}
+.reply,
+.repost,
+.like,
+.view,
+.share{
+    position: relative;
+    cursor: pointer;
+}
+.reply1{
+    display: flex;
+}
+.reply1:hover{
+    filter: invert(57%) sepia(90%) saturate(3623%) hue-rotate(189deg) brightness(100%) contrast(85%);
+
+}
+
+.reply .tooltip,
+.repost .tooltip,
+.view .tooltip,
+.like .tooltip,
+.share .tooltip{
+    position: absolute;
+    background-color: rgb(96,96,96);
+    font-size: 9px;
+    font-family: robot,arial;
+    padding: 2px;
+    color: white;
+    border-radius: 2px;
+    bottom: -15px;
+    transition: opacity 0.15s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.reply:hover .tooltip,
+.repost:hover .tooltip,
+.view:hover .tooltip,
+.like:hover .tooltip,
+.share:hover .tooltip{
+    opacity: 1;
+}
+
+.icons-container{
+    position: relative;
+    display: inline-block;
+    
+}
+.icons-container .tooltip{
+    position: absolute;
+    background-color: rgb(96,96,96);
+    color: white;
+    font-size: 10px;
+    padding: 3px;
+    bottom: -25px;
+    border-radius: 3px;
+    opacity: 0;
+    pointer-events: none;
+    right: 5px;
+    transition: opacity 0.15s;
+}
+.icons-container:hover .tooltip{
+    opacity: 1;
+
+}
+.location{
+    opacity: 0.4;
+}
+.icon-container{
+    position: relative;
+    cursor: pointer;
+}
+.icon-container .tooltip{
+    position: absolute;
+    background-color: rgb(96,96,96);
+    color: white;
+    font-size: 10px;
+    padding: 3px;
+    bottom: -20px;
+    border-radius: 3px;
+    opacity: 0;
+    pointer-events: none;
+    right: -5px;   
+    transition: opacity 0.15s;
+    
+}
+.icon-container:hover .tooltip{
+    opacity: 1;
+}
