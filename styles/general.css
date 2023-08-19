@@ -18,6 +18,54 @@ main{
 .respon{
     display: none;
 }
+@media (max-width: 768px){
+    .sidebar{
+        width: 300px;
+    }
+    .header{
+        padding-left: 300px;
+    }
+    main{
+        padding-left: 300px;
+    }
+}
+@media (max-width: 640px){
+    .sidebar{
+        width: 100px;
+    }
+    .sidebar-container p{
+        display: none;
+    }
+    .sidebar-container{
+        margin: 0;
+        width: 75px;
+    }
+    .sidebar-myprofile{
+        display: none;
+    }
+    .sidebar-btn{
+        display: none;
+    }
+    .sidebar-home,
+    .sidebar-explore,
+    .sidebar-notification,
+    .sidebar-message,
+    .sidebar-list,
+    .sidebar-bookmark,
+    .sidebar-communities,
+    .sidebar-profile,
+    .sidebar-more{
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    }
+    main,
+    .header{
+        padding-left: 100px;
+    }
+}
 @media (max-width: 380px){
 
     .profile{
